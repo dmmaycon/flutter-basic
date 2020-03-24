@@ -1,15 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:frases_dia/home.dart';
 
 void main() {
   runApp(MaterialApp(
     title: "Frases do Dia",
-    home: Row(
-      children: <Widget>[
-        Text("Um valor "),
-        Text("Fica em "),
-        Text("do lado do "),
-        Text("de outro ")
-      ],
-    )
+    debugShowCheckedModeBanner: false,
+    home: Home()
   ));
 }
